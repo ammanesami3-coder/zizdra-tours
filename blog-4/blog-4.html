@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="هل هذه أول مرة تستأجر فيها سيارة؟ إليك 7 نصائح مهمة لتجربة إيجار سلسة وآمنة، مع تجنب الأخطاء الشائعة وتوفير المال.">
+    <meta name="keywords" content="استئجار سيارة، تأجير سيارات للمبتدئين، نصائح إيجار سيارات، تأجير سيارة لأول مرة">
+    <title>What does insurance cover when renting a car?</title>
+    <link rel="stylesheet" href="blog-4.css">
+    <link rel="shortcut icon" href="./logo zizdra tours RB.png" type="image/svg+xml">
+
+    <!--font: English-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+    
+    <!--font: Arabic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scheherazade+New:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <h1 data-i18n="h1-what">What does insurance cover when renting a car?</h1>
+        <!--lang-->
+        <select id="languageSwitcher">
+    <option value="en">English</option>
+    <option value="ar">العربية</option>
+    <option value="fr">Français</option>
+  </select>
+    </header>
+
+    <section class="blog-post">
+        <div class="post-meta">
+            <p data-i18n="p-1">Publication date: <span>May 10, 2025</span></p>
+        </div>
+
+        <div class="post-content">
+            <p data-i18n="p-2">Insurance is an essential part of the car rental process, but many people don't know what it actually covers and which coverage is best for them. In this article, we'll explain the types of insurance offered when renting a car and when you need additional insurance.</p>
+            <img src="chris-barbalis-9qlSGW_LgKs-unsplash.jpg" alt="صورة لسيارة dacia sandero Stepway" id="ma9al-2">
+
+            <h2 data-i18n="h2-1">1. Third Party Liability Insurance:</h2>
+            <p data-i18n="p-3">It covers damage you cause to others (people or property) but does not cover damage to the rental car itself.
+            </p>
+
+            <h2 data-i18n="h2-2">2. Comprehensive insurance:</h2>
+            <p data-i18n="p-4">Covers damages resulting from accidents, theft, vandalism, and natural disasters. This is the preferred type for most customers.
+            </p>
+
+            <h2 data-i18n="h2-3">3. Personal Accident Insurance (PAI):</h2>
+            <p data-i18n="p-5">It provides medical coverage for the driver and passengers in the event of an accident, and may also cover ambulance costs.
+            </p>
+
+            <h2 data-i18n="h2-4">4. The deductible amount:</h2>
+            <p data-i18n="p-6">This is the portion of the damage you bear. The lower the amount, the higher the rental cost, and vice versa.</p>
+
+            <h2 data-i18n="h2-5">5. Additional insurance via credit card:</h2>
+            <p data-i18n="p-7">Some credit cards offer free insurance when you rent a car. Be sure to contact your bank for details..</p>
+
+            <h3 data-i18n="h3-1">Conclusion</h3>
+            <p data-i18n="p-8">Choosing the right insurance provides peace of mind during your trip and protects you from high costs. Don't hesitate to ask your rental company about coverage details before signing.
+            <p>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="p-9">All rights reserved © 2025</p>
+        <a href="../index.html" class="back-home-link" data-i18n="return">Return to the home page</a>
+    </footer>
+
+    <script src="blog-4.js"></script>
+
+
+    <button id="scrollProgress" title="Back to top">0%</button>
+<script>
+  const scrollBtn = document.getElementById("scrollProgress");
+
+  window.onscroll = function () {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = Math.round((scrollTop / scrollHeight) * 100);
+
+    if (scrollTop > 200) {
+      scrollBtn.classList.add("show");
+    } else {
+      scrollBtn.classList.remove("show");
+    }
+
+    scrollBtn.textContent = scrollPercent + "%";
+  };
+
+  scrollBtn.onclick = function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+</script>
+
+
+<!--lang-->
+
+<script>
+  let currentLang = 'en'; // اللغة الافتراضية
+
+// تحميل ملف JSON
+function loadTranslations(lang) {
+  fetch('../blog-4/lang/translations.json')
+    .then(res => res.json())
+    .then(data => {
+      const translations = data[lang];
+      if (!translations) return;
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[key]) {
+          el.innerHTML = translations[key];
+        }
+      });
+
+      currentLang = lang;
+      // إذا كنت تستخدم RTL مثل العربية
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    });
+}
+
+// عند تغيير اللغة
+document.getElementById('languageSwitcher').addEventListener('change', function () {
+  loadTranslations(this.value);
+});
+
+// تحميل الترجمة عند فتح الصفحة
+document.addEventListener('DOMContentLoaded', () => {
+  loadTranslations(currentLang);
+});
+
+  
+</script>
+</body>
+</html>

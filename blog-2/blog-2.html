@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="هل هذه أول مرة تستأجر فيها سيارة؟ إليك 7 نصائح مهمة لتجربة إيجار سلسة وآمنة، مع تجنب الأخطاء الشائعة وتوفير المال.">
+    <meta name="keywords" content="استئجار سيارة، تأجير سيارات للمبتدئين، نصائح إيجار سيارات، تأجير سيارة لأول مرة">
+    <title>How to choose the right car for your trip?</title>
+    <link rel="stylesheet" href="blog-2.css">
+    <link rel="shortcut icon" href="./logo zizdra tours RB.png" type="image/svg+xml">
+
+    <!--font: English-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+    
+    <!--font: Arabic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scheherazade+New:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <h1 data-i18n="h1-how">How to choose the right car for your trip?</h1>
+
+        <!--Button lang-->
+        <select id="languageSwitcher">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="fr">Français</option>
+        </select>
+
+    </header>
+
+    <section class="blog-post">
+        <div class="post-meta">
+            <p data-i18n="p-publ">Publication date: <span>May 10, 2025</span></p>
+        </div>
+
+        <div class="post-content">
+            <p data-i18n="p-choos">Choosing the right car can make a huge difference to your travel experience. While a small car may be excellent for getting around town, you may need an SUV or family car for a long trip or group travel. In this post, we'll help you decide which option is best based on the nature of your trip and your specific needs.</p>
+            <img src="amg 2.jpg" alt="صورة لسيارة dacia sandero Stepway" id="ma9al-2">
+
+            <h2 data-i18n="h2-1">1. Select the trip type:</h2>
+            <p data-i18n="p-ask">Ask yourself: Is it a business trip, a family vacation, or an off-road adventure? Each type requires different vehicle specifications.<br>
+                - Business trip? An economical and stylish car like the Dacia Sandero Stepway.<br>
+                - Family trip? A family car with comfortable rear seats and ample luggage space, like the Dacia Lodgy.<br>
+                - Adventure? An off-road vehicle like the Dacia Sandero.
+            </p>
+
+            <h2 data-i18n="h2-2">2. Number of passengers and luggage:</h2>
+            <p data-i18n="p-thenumber">The number of passengers and the amount of luggage are two key factors. Don't sacrifice comfort, as cramped seats can ruin your travel experience.<br>
+            - Two people? A small car is enough.<br>
+            - More than 4 people? Choose a larger vehicle like a Dacia Lodgy or Renault Express.
+            </p>
+
+            <h2 data-i18n="h2-3">3. Nature of the road:</h2>
+            <p data-i18n="p-city">- City or paved roads? An economical car with a small size for easy driving and parking.<br>
+               - Mountain or desert roads? A four-wheel drive vehicle with a robust suspension.
+            </p>
+
+            <h2 data-i18n="h2-4">4. Fuel consumption:</h2>
+            <p data-i18n="p-some2">Some trips are long and fuel-intensive. Make sure to choose a fuel-efficient car if you're on a budget.</p>
+
+            <h2 data-i18n="h2-5">5. Budget:</h2>
+            <p data-i18n="p-set">Set your budget carefully, and don't forget to factor in insurance and fuel costs. Sometimes, paying a little more for a comfortable car is better than saving money while suffering along the way.</p>
+
+            <h2 data-i18n="h2-6">6. Additional features:</h2>
+            <p data-i18n="p-doyou">Do you need a GPS navigation system? Child seats? Wi-Fi? Choose a car that offers these features if they're essential for your trip.</p>
+
+            <h3 data-i18n="h3-conclusion">Conclusion:</h3>
+            <p data-i18n="p-chkck">Choosing the right car for your trip isn't just about style or price; it must also be compatible with the type of trip, the number of passengers, and the nature of the roads. The more aware you are of these factors, the more comfortable and safe your trip will be.<br>
+            Browse our diverse range of cars and choose what suits you through our website!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="p-allrghit">All rights reserved © 2025</p>
+        <a href="../index.html" class="back-home-link" data-i18n="return">Return to the home page</a>
+    </footer>
+
+    <script src="blog-2.js"></script>
+
+
+    <button id="scrollProgress" title="Back to top">0%</button>
+<script>
+  const scrollBtn = document.getElementById("scrollProgress");
+
+  window.onscroll = function () {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = Math.round((scrollTop / scrollHeight) * 100);
+
+    if (scrollTop > 200) {
+      scrollBtn.classList.add("show");
+    } else {
+      scrollBtn.classList.remove("show");
+    }
+
+    scrollBtn.textContent = scrollPercent + "%";
+  };
+
+  scrollBtn.onclick = function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+</script>
+
+<!--lang-->
+
+<script>
+  let currentLang = 'en'; // اللغة الافتراضية
+
+// تحميل ملف JSON
+function loadTranslations(lang) {
+  fetch('../blog-2/lang/translations.json')
+    .then(res => res.json())
+    .then(data => {
+      const translations = data[lang];
+      if (!translations) return;
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[key]) {
+          el.innerHTML = translations[key];
+        }
+      });
+
+      currentLang = lang;
+      // إذا كنت تستخدم RTL مثل العربية
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    });
+}
+
+// عند تغيير اللغة
+document.getElementById('languageSwitcher').addEventListener('change', function () {
+  loadTranslations(this.value);
+});
+
+// تحميل الترجمة عند فتح الصفحة
+document.addEventListener('DOMContentLoaded', () => {
+  loadTranslations(currentLang);
+});
+
+  
+</script>
+
+
+</body>
+</html>

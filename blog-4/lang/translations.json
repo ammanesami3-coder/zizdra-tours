@@ -1,0 +1,75 @@
+{
+    "en": {
+
+        "h1-what": "What does insurance cover when renting a car?",
+        "p-1": "Publication date: <span>May 10, 2025",
+        "p-2": "Insurance is an essential part of the car rental process, but many people don't know what it actually covers and which coverage is best for them. In this article, we'll explain the types of insurance offered when renting a car and when you need additional insurance.",
+        "h2-1": "1. Third Party Liability Insurance:",
+        "p-3": "It covers damage you cause to others (people or property) but does not cover damage to the rental car itself.",
+        "h2-2": "2. Comprehensive insurance:",
+        "p-4": "Covers damages resulting from accidents, theft, vandalism, and natural disasters. This is the preferred type for most customers.",
+        "h2-3": "3. Personal Accident Insurance (PAI):",
+        "p-5": "It provides medical coverage for the driver and passengers in the event of an accident, and may also cover ambulance costs.",
+        "h2-4": "4. The deductible amount:",
+        "p-6": "This is the portion of the damage you bear. The lower the amount, the higher the rental cost, and vice versa.",
+        "h2-5": "5. Additional insurance via credit card:",
+        "p-7": "Some credit cards offer free insurance when you rent a car. Be sure to contact your bank for details.",
+        "h3-1": "Conclusion:",
+        "p-8": "Choosing the right insurance provides peace of mind during your trip and protects you from high costs. Don't hesitate to ask your rental company about coverage details before signing.",
+        "p-9": "All rights reserved © 2025",
+        "return": "Return to the home page"
+
+
+
+    },
+
+
+    "ar": {
+
+        "h1-what": "ماذا يغطي التأمين عند استئجار سيارة؟",
+        "p-1": "تاريخ النشر: <span>ماي 10, 2025",
+        "p-2": "يُعد التأمين جزءًا أساسيًا من عملية استئجار السيارات، ولكن الكثيرين لا يعرفون ما يغطيه فعليًا وما هي التغطية الأنسب لهم. في هذه المقالة، سنشرح أنواع التأمين المتاحة عند استئجار سيارة، ومتى تحتاج إلى تأمين إضافي.",
+        "h2-1": "1. تأمين المسؤولية تجاه الطرف الثالث:",
+        "p-3": "إنه يغطي الأضرار التي تسببها للآخرين (الأشخاص أو الممتلكات) ولكن لا يغطي الأضرار التي تلحق بالسيارة المستأجرة نفسها.",
+        "h2-2": "2. التأمين الشامل:",
+        "p-4": "يغطي الأضرار الناتجة عن الحوادث والسرقة والتخريب والكوارث الطبيعية. هذا هو النوع المفضل لدى معظم العملاء.",
+        "h2-3": "3. تأمين الحوادث الشخصية (PAI):",
+        "p-5": "ويوفر تغطية طبية للسائق والركاب في حالة وقوع حادث، وقد يغطي أيضًا تكاليف سيارة الإسعاف.",
+        "h2-4": "4. المبلغ المستقطع:",
+        "p-6": "هذا هو الجزء الذي تتحمله من الضرر. كلما انخفض المبلغ، زادت تكلفة الإيجار، والعكس صحيح.",
+        "h2-5": "5. التأمين الإضافي عن طريق بطاقة الائتمان:",
+        "p-7": "بعض بطاقات الائتمان تقدم تأمينًا مجانيًا عند استئجار سيارة. تواصل مع مصرفك لمزيد من التفاصيل.",
+        "h3-1": "خاتمة:",
+        "p-8": "اختيار التأمين المناسب يمنحك راحة البال أثناء رحلتك ويحميك من التكاليف الباهظة. لا تتردد في سؤال شركة التأجير عن تفاصيل التغطية قبل التوقيع.",
+        "p-9": "جميع الحقوق محفوظة © 2025",
+        "return": "العودة إلى الصفحة الرئيسية"
+
+
+    },
+
+
+    "fr": {
+
+        "p-1": "Date de parution : <span>Mai 10, 2025",
+        "p-2": "L'assurance est un élément essentiel de la location de voiture, mais beaucoup ignorent ce qu'elle couvre réellement et quelle couverture leur convient le mieux. Dans cet article, nous vous expliquons les différents types d'assurance proposés lors de la location d'une voiture et les cas où une assurance complémentaire est nécessaire.",
+        "p-3": "Elle couvre les dommages que vous causez à autrui (personnes ou biens) mais ne couvre pas les dommages causés à la voiture de location elle-même.",
+        "p-4": "Couvre les dommages résultant d'accidents, de vols, de vandalisme et de catastrophes naturelles. C'est la formule privilégiée par la plupart des clients.",
+        "p-5": "Elle offre une couverture médicale au conducteur et aux passagers en cas d'accident et peut également couvrir les frais d'ambulance.",
+        "p-6": "Il s'agit de la part des dommages que vous supportez. Plus le montant est faible, plus le coût de la location est élevé, et inversement.",
+        "p-7": "Certaines cartes de crédit offrent une assurance gratuite pour la location d'une voiture. Contactez votre banque pour plus de détails.",
+        "p-8": "Choisir la bonne assurance vous assure une tranquillité d'esprit pendant votre voyage et vous protège des coûts élevés. N'hésitez pas à vous renseigner sur les modalités de couverture auprès de votre loueur avant de souscrire.",
+        "p-9": "Tous droits réservés © 2025",
+        "h1-what": "Que couvre l'assurance lors de la location d'une voiture ?",
+        "h3-1": "Conclusion:",
+        "h2-1": "1. Assurance responsabilité civile :",
+        "h2-2": "2. Assurance tous risques :",
+        "h2-3": "3. Assurance individuelle contre les accidents (PAI) :",
+        "h2-4": "4. Le montant de la franchise :",
+        "h2-5": "5. Assurance complémentaire par carte de crédit :",
+        "return": "Retour à la page d'accueil"
+
+
+    }
+
+
+}

@@ -1,0 +1,162 @@
+:root {
+      --ff-nunito: 'Nunito', sans-serif;
+  --ff-open-sans: 'Open Sans', sans-serif;
+  --ff-unito: 'Tajawal', sans-serif;
+}
+
+
+
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b48b43;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Tajawal', sans-serif;
+}
+
+header {
+    background-color: #361f00;
+    text-align: center;
+    padding: 0.1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* تصميم الرابط */
+.back-home-link {
+    color: #773f00;               /* لون النص */
+    font-size: 1rem;
+    text-decoration: none;         /* إزالة الخط تحت الرابط */
+    padding: 10px 20px;
+    background-color: #d8b88a;     /* لون الخلفية */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-home-link:hover {
+    background-color: #773f00;    /* تغيير اللون عند التمرير */
+    color: #fff;                  /* تغيير لون النص عند التمرير */
+}
+
+
+h1 {
+    font-size: 1.6rem;
+    color: #d69243;
+}
+
+.blog-post {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #e4be7c;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #732a00;
+    margin-top: 1.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    color: #010101;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f0e0c9;
+    margin-top: 2rem;
+}
+
+/* Fade-In Effect */
+.blog-post {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.blog-post.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+#ma9al-3{
+text-align: center;              /* توسيط الصورة أفقيًا */
+    line-height: 100vh;              /* للتوسيط العمودي داخل الحاوية */
+    height: 100vh;                   /* ارتفاع الحاوية بالكامل */
+    width: 100%; 
+    display: inline-block;           /* عرض الصورة ككتلة خطية */
+    vertical-align: middle;          /* التوسيط العمودي */
+    max-width: 100%;                 /* لضمان أن الصورة لن تتجاوز حجم الحاوية */
+    height: auto;
+}
+/* تعديل حجم الصورة للأجهزة المحمولة */
+@media (max-width: 768px) {
+    .centered-image {
+        width: 90%;   /* تغيير العرض على الأجهزة الصغيرة */
+        height: auto;
+    }
+}
+
+
+
+
+#scrollProgress {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background-color: #a77f42; /* لون بني رملي فاخر */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+#scrollProgress.show {
+  opacity: 1;
+  visibility: visible;
+}
+img{
+    border-radius: 30px;
+}
+
+/*button lang*/
+
+#languageSwitcher{
+  background: #c7925e;
+  color: white;
+  padding: 9px;
+  font-weight: bold;
+  border-radius: 9px;
+}
+
+header.header {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+header.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header.header select {
+  position: absolute;
+  top: 1rem;
+  inset-inline-end: 1rem; /* يعمل لليمين واليسار حسب اللغة */
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+}

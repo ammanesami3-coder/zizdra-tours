@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="هل هذه أول مرة تستأجر فيها سيارة؟ إليك 7 نصائح مهمة لتجربة إيجار سلسة وآمنة، مع تجنب الأخطاء الشائعة وتوفير المال.">
+    <meta name="keywords" content="استئجار سيارة، تأجير سيارات للمبتدئين، نصائح إيجار سيارات، تأجير سيارة لأول مرة">
+    <title>Things you should know before signing a car lease</title>
+    <link rel="stylesheet" href="blog-3.css">
+    <link rel="shortcut icon" href="./logo zizdra tours RB.png" type="image/svg+xml">
+
+    <!--font: English-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+    
+    <!--font: Arabic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scheherazade+New:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <h1 data-i18n="h1-things">Things you should know before signing a car lease</h1>
+
+        <!--Button lang-->
+        <select id="languageSwitcher">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="fr">Français</option>
+        </select>
+    </header>
+
+    <section class="blog-post">
+        <div class="post-meta">
+            <p data-i18n="p-1">Publication date: <span>May 10, 2025</span></p>
+        </div>
+
+        <div class="post-content">
+            <p data-i18n="p-2">Leasing a car may seem simple at first, but small details in the rental agreement can significantly impact your experience and even cost you extra money without you even realizing it. Therefore, it's important to be aware of some key points before signing the contract.</p>
+            <img src="amg.jpg" alt="صورة لسيارة dacia sandero Stepway" id="ma9al-3">
+
+            <h2 data-i18n="h2-1">1. Understand the type of insurance offered:</h2>
+            <p data-i18n="p-3">Does the insurance cover accident and theft? Is there a deductible? Check what the insurance covers and what it does not, and don't hesitate to request additional coverage if necessary.
+            </p>
+
+            <h2 data-i18n="h2-2">2. Check fuel policy:</h2>
+            <p data-i18n="p-4">Do you have to return your vehicle with a full tank? Some companies charge high fees if you return your vehicle with a low tank. Read the relevant clause carefully.
+            </p>
+
+            <h2 data-i18n="h2-3">3. Daily mileage limits:</h2>
+            <p data-i18n="p-5">Some contracts impose a daily mileage limit and charge additional fees if you exceed it. Make sure the limit is sufficient for your travel plan.
+            </p>
+
+            <h2 data-i18n="h2-4">4. Special conditions for delay:</h2>
+            <p data-i18n="p-6">How late are you allowed to deliver? What are the late fees? Sometimes the fee doubles after the first hour of delay.</p>
+
+            <h2 data-i18n="h2-5">5. Check the condition of the car before signing:</h2>
+            <p data-i18n="p-7">Conduct a thorough inspection of the vehicle before receiving it, and note any scratches or damage in the contract, preferably documenting the condition with photos. This protects you from the cost of damage you didn't cause.</p>
+
+            <h2 data-i18n="h2-6">6. Cancellation Policy:</h2>
+            <p data-i18n="p-8">If I have to cancel my reservation, will I receive a refund? What is the time period for cancellation without fees?</p>
+
+            <h2 data-i18n="h2-7">7. Driver age and license requirements:</h2>
+            <p data-i18n="p-9">Some companies charge additional fees for drivers under 25 or over 65. You should also ensure that your license is valid and recognized.</p>
+
+            <h2 data-i18n="h2-8">8. Additional undisclosed fees:</h2>
+            <p data-i18n="p-10">Read the bill carefully. Is there a cleaning fee? A service fee? A delivery fee to a different location? Make sure you understand all costs before signing.</p>
+
+            <h3 data-i18n="h3-1">Conclusion</h3>
+            <p data-i18n="p-11">Reading your car lease contract carefully will save you a lot of confusion and surprise fees later on. Don't hesitate to ask the rental agent questions if you don't understand a particular clause.<br>
+            Ready to rent your car with confidence? Browse our fleet now and get a clear and comprehensive overview!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="p-12">All rights reserved © 2025</p>
+        <a href="../index.html" class="back-home-link" data-i18n="return">Return to the home page</a>
+    </footer>
+
+    <script src="blog-3.js"></script>
+
+
+    <button id="scrollProgress" title="Back to top">0%</button>
+<script>
+  const scrollBtn = document.getElementById("scrollProgress");
+
+  window.onscroll = function () {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = Math.round((scrollTop / scrollHeight) * 100);
+
+    if (scrollTop > 200) {
+      scrollBtn.classList.add("show");
+    } else {
+      scrollBtn.classList.remove("show");
+    }
+
+    scrollBtn.textContent = scrollPercent + "%";
+  };
+
+  scrollBtn.onclick = function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+</script>
+
+<!--lang-->
+
+<script>
+  let currentLang = 'en'; // اللغة الافتراضية
+
+// تحميل ملف JSON
+function loadTranslations(lang) {
+  fetch('../blog-3/lang/translations.json')
+    .then(res => res.json())
+    .then(data => {
+      const translations = data[lang];
+      if (!translations) return;
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[key]) {
+          el.innerHTML = translations[key];
+        }
+      });
+
+      currentLang = lang;
+      // إذا كنت تستخدم RTL مثل العربية
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    });
+}
+
+// عند تغيير اللغة
+document.getElementById('languageSwitcher').addEventListener('change', function () {
+  loadTranslations(this.value);
+});
+
+// تحميل الترجمة عند فتح الصفحة
+document.addEventListener('DOMContentLoaded', () => {
+  loadTranslations(currentLang);
+});
+
+  
+</script>
+
+</body>
+</html>
