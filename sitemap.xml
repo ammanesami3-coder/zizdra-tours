@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.yourdomain.com/</loc>
-    <lastmod>2025-05-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://zizdratours.com/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.yourdomain.com/about.html</loc>
-    <lastmod>2025-05-13</lastmod>
+    <loc>https://zizdratours.com/blog-1/blog-1.html</loc>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.yourdomain.com/contact.html</loc>
-    <lastmod>2025-05-13</lastmod>
+    <loc>https://zizdratours.com/blog-2/blog-2.html</loc>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.yourdomain.com/contact.html</loc>
-    <lastmod>2025-05-13</lastmod>
+    <loc>https://zizdratours.com/blog-3/blog-3.html</loc>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.yourdomain.com/about.html</loc>
-    <lastmod>2025-05-13</lastmod>
+    <loc>https://zizdratours.com/blog-4/blog-4.html</loc>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.yourdomain.com/contact.html</loc>
-    <lastmod>2025-05-13</lastmod>
+    <loc>https://zizdratours.com/blog-5/blog-5.html</loc>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
